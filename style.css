@@ -1,0 +1,118 @@
+body {
+    font-family: "Roboto", Arial;
+    font-size: 20px;
+}
+
+.calculator {
+    width: 320px;
+    height: 500px;
+    background-image: linear-gradient(to left top, #e3e3e3, #cecece, #b9b9b9, #a5a5a5, #919191);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: solid black 5px;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    display: flex;
+    flex: 1;
+    background-color: #e3e3e3;
+    padding: 10px;
+    margin: 10px;
+    width: 275px;
+    height: 100px;
+    border-radius: 5px;
+    align-items: end;
+    justify-content: end;
+}
+
+#btn {
+    background-image: linear-gradient(to right bottom, #e3e3e3, #cecece, #b9b9b9, #a5a5a5, #919191);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.inside-btn {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left top, #e3e3e3, #cecece, #b9b9b9, #a5a5a5, #919191);
+    border-radius: 5px;
+}
+
+.inside-btn-zero {
+    display: flex;
+    width: 130px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left top, #e3e3e3, #cecece, #b9b9b9, #a5a5a5, #919191);
+}
+
+.inside-btn-eql {
+    display: flex;
+    width: 30px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left top, #e3e3e3, #cecece, #b9b9b9, #a5a5a5, #919191);
+}
+
+.pad {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 10px;
+}
+
+.left-side {
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+
+.right-side {
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 220px;
+}
+
+.special-zero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.special-zero .btn-zero {
+    display: flex;
+    flex: 1 1 0%;
+}
+
+.right-side .btn-eql {
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 0%;
+}
